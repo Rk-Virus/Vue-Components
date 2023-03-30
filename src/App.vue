@@ -1,6 +1,8 @@
 <template>
+  <NavBar msg="Welcome to Your Vue.js App"/>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <NavBar />
+  <hr/>
   <HelloWorld msg="Welcome to Your Vue.js App" />
   <TableComponent title="Table title" />
   <NiceComponent />
@@ -9,17 +11,12 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import TableComponent from './components/TableComponent.vue'
-import NiceComponent from './components/NiceComponent.vue'
-import NavBar from './components/NavBar.vue'
-
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    TableComponent,
-    NiceComponent,
-    NavBar
+    TableComponent
   }
 }
 </script>
