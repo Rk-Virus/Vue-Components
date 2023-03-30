@@ -1,18 +1,25 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <TableComponent title="Table title"/>
+  <NavBar />
+  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <TableComponent title="Table title" />
+  <NiceComponent />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import TableComponent from './components/TableComponent.vue'
+import NiceComponent from './components/NiceComponent.vue'
+import NavBar from './components/NavBar.vue'
+
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    TableComponent
+    TableComponent,
+    NiceComponent,
+    NavBar
   }
 }
 </script>
@@ -25,5 +32,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
 }
 </style>
