@@ -2,12 +2,14 @@
   <NavBar msg="Welcome to Your Vue.js App"/>
   <NavBar />
   <hr/>
+  <SkeletonBar />
   <HelloWorld msg="Welcome to Your Vue.js App" />
   <TableComponent title="Table title" />
   <!-- <NiceComponent /> -->
   <ToolTip/>
   <LabelProgess/>
   <FooterComponent />
+  
   
   
 </template>
@@ -18,6 +20,7 @@ import FooterComponent from './components/FooterComponent.vue'
 import TableComponent from './components/TableComponent.vue'
 import ToolTip from './components/ToolTip.vue'
 import LabelProgess from './components/LabelProgess.vue'
+import SkeletonBar from './components/SkeletonBar.vue'
 
 
 
@@ -27,7 +30,7 @@ export default {
     HelloWorld,
     TableComponent,
     FooterComponent,
-    ToolTip,LabelProgess,
+    ToolTip,LabelProgess,SkeletonBar
 
   }
 }
