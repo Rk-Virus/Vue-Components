@@ -6,7 +6,9 @@
   <TableComponent title="Table title" />
   <!-- <NiceComponent /> -->
   <ToolTip/>
+  <LabelProgess/>
   <FooterComponent />
+  
   
 </template>
 
@@ -15,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import FooterComponent from './components/FooterComponent.vue'
 import TableComponent from './components/TableComponent.vue'
 import ToolTip from './components/ToolTip.vue'
+import LabelProgess from './components/LabelProgess.vue'
 
 
 
@@ -24,7 +27,7 @@ export default {
     HelloWorld,
     TableComponent,
     FooterComponent,
-    ToolTip
+    ToolTip,LabelProgess,
 
   }
 }
