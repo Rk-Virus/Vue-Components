@@ -7,6 +7,7 @@
   <TableComponent title="Table title" />
   <!-- <NiceComponent /> -->
   <CardLabel/>
+  <AccordianLabel/>
   <snackBar/>
   <ToolTip/>
   <LabelProgess/>
@@ -26,6 +27,7 @@ import LabelProgess from './components/LabelProgess.vue'
 import SkeletonBar from './components/SkeletonBar.vue'
 import snackBar from './components/snackBar.vue'
 import CardLabel from './components/CardLabel.vue'
+import AccordianLabel from './components/AccordianLabel.vue'
 
 
 
@@ -35,7 +37,7 @@ export default {
     HelloWorld,
     TableComponent,
     FooterComponent,
-    ToolTip,LabelProgess,SkeletonBar,snackBar,CardLabel
+    ToolTip,LabelProgess,SkeletonBar,snackBar,CardLabel,AccordianLabel
 
   }
 }
