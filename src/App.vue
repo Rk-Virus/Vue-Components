@@ -6,6 +6,7 @@
   <HelloWorld msg="Welcome to Your Vue.js App" />
   <TableComponent title="Table title" />
   <!-- <NiceComponent /> -->
+  <CardLabel/>
   <snackBar/>
   <ToolTip/>
   <LabelProgess/>
@@ -24,6 +25,7 @@ import ToolTip from './components/ToolTip.vue'
 import LabelProgess from './components/LabelProgess.vue'
 import SkeletonBar from './components/SkeletonBar.vue'
 import snackBar from './components/snackBar.vue'
+import CardLabel from './components/CardLabel.vue'
 
 
 
@@ -33,7 +35,7 @@ export default {
     HelloWorld,
     TableComponent,
     FooterComponent,
-    ToolTip,LabelProgess,SkeletonBar,snackBar
+    ToolTip,LabelProgess,SkeletonBar,snackBar,CardLabel
 
   }
 }
