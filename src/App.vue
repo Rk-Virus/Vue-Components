@@ -6,6 +6,7 @@
   <HelloWorld msg="Welcome to Your Vue.js App" />
   <TableComponent title="Table title" />
   <!-- <NiceComponent /> -->
+  <DiaLog/>
   <CardLabel/>
   <AccordianLabel/>
   <snackBar/>
@@ -28,6 +29,8 @@ import SkeletonBar from './components/SkeletonBar.vue'
 import snackBar from './components/snackBar.vue'
 import CardLabel from './components/CardLabel.vue'
 import AccordianLabel from './components/AccordianLabel.vue'
+import DiaLog from './components/DiaLog.vue'
+
 
 
 
@@ -37,7 +40,7 @@ export default {
     HelloWorld,
     TableComponent,
     FooterComponent,
-    ToolTip,LabelProgess,SkeletonBar,snackBar,CardLabel,AccordianLabel
+    ToolTip,LabelProgess,SkeletonBar,snackBar,CardLabel,AccordianLabel,DiaLog
 
   }
 }
